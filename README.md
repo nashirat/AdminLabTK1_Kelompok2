@@ -7,7 +7,6 @@
 #### SOAL 1 ####
 
 [Code Lengkap](https://github.com/nashirat/AdminLabTK1_Kelompok2/blob/main/Soal1/soal1.ino)
-![rangkaian](https://github.com/nashirat/AdminLabTK1_Kelompok2/blob/main/Soal1/Rangkaian_Soal1_Kelompok2.PNG)
 
 Penjelasan Algoritma Utama
 
@@ -112,4 +111,56 @@ void nyala3()
 
 
 ### SOAL 2 ###
-Karena terlalu banyak dan terlalu random, kami belum berhasil menemukan kata2 yang menurut kami berbentuk dan bisa dianggap sebagai kunci. Contoh: kami menemukan kata `pemisah ini`, tetapi tidak bisa menemukan kata selanjutnya yang masuk akal.
+Karena terlalu banyak dan terlalu random, kami belum berhasil menemukan kata2 yang menurut kami berbentuk dan bisa dianggap sebagai kunci. Contoh: kami menemukan kata `pemisah ini`, tetapi tidak bisa menemukan kata selanjutnya yang masuk akal. Kami mencoba menyusun secara acak sesuai petunjuk yang diberikan, namun masih belum bisa mendapatkan kata atau kalimat yang valid atau berbentuk. Jumlah percobaan kami mungkin belum seberapa dibandingkan dengan total semua kemungkinan yang bisa dicoba yaitu `4^n` dengan `n = jumlah huruf`. Berikut merupakan semua hasil operasi dari tiap huruf kapital pada paragraf soal tanpa dikurangi.
+```
+With total of 48 letters, those chances are: 79228162514264337593543950336
+R 82  |  T 	 P 	 J 	 I
+G 71  |  I 	 E 	 N 	 D
+K 75  |  M 	 I 	 V 	 F
+R 82  |  T 	 P 	 J 	 I
+Q 81  |  S 	 O 	 H 	 I
+H 72  |  J 	 F 	 P 	 D
+B 66  |  D 	 Z 	 D 	 A
+H 72  |  J 	 F 	 P 	 D
+K 75  |  M 	 I 	 V 	 F
+O 79  |  Q 	 M 	 D 	 H
+R 82  |  T 	 P 	 J 	 I
+P 80  |  R 	 N 	 F 	 H
+R 82  |  T 	 P 	 J 	 I
+X 88  |  Z 	 V 	 V 	 L
+R 82  |  T 	 P 	 J 	 I
+C 67  |  E 	 A 	 F 	 B
+A 65  |  C 	 Y 	 B 	 A
+R 82  |  T 	 P 	 J 	 I
+V 86  |  X 	 T 	 R 	 K
+E 69  |  G 	 C 	 J 	 C
+V 86  |  X 	 T 	 R 	 K
+Q 81  |  S 	 O 	 H 	 I
+H 72  |  J 	 F 	 P 	 D
+G 71  |  I 	 E 	 N 	 D
+V 86  |  X 	 T 	 R 	 K
+V 86  |  X 	 T 	 R 	 K
+R 82  |  T 	 P 	 J 	 I
+W 87  |  Y 	 U 	 T 	 L
+W 87  |  Y 	 U 	 T 	 L
+Q 81  |  S 	 O 	 H 	 I
+H 72  |  J 	 F 	 P 	 D
+R 82  |  T 	 P 	 J 	 I
+Q 81  |  S 	 O 	 H 	 I
+H 72  |  J 	 F 	 P 	 D
+J 74  |  L 	 H 	 T 	 E
+N 78  |  P 	 L 	 B 	 G
+Q 81  |  S 	 O 	 H 	 I
+H 72  |  J 	 F 	 P 	 D
+C 67  |  E 	 A 	 F 	 B
+R 82  |  T 	 P 	 J 	 I
+Q 81  |  S 	 O 	 H 	 I
+H 72  |  J 	 F 	 P 	 D
+B 66  |  D 	 Z 	 D 	 A
+K 75  |  M 	 I 	 V 	 F
+V 86  |  X 	 T 	 R 	 K
+B 66  |  D 	 Z 	 D 	 A
+P 80  |  R 	 N 	 F 	 H
+R 82  |  T 	 P 	 J 	 I
+```
+Dengan total maksimum adalah `48` huruf, harusnya kami belum boleh menyerah sebelum mencoba sebanyak `79.228.162.514.264.337.593.543.950.336` kali. Namun apa daya kami harus menyerah bahkan sebelum menyentuh `1%` dari jumlah percobaan maksimum yang mungkin dicoba.
