@@ -110,5 +110,5 @@ void nyala3()
 ```
 
 
-###SOAL 2###
+### SOAL 2 ###
 Karena terlalu banyak dan terlalu random, kami belum berhasil menemukan kata2 yang menurut kami berbentuk dan bisa dianggap sebagai kunci. Contoh: kami menemukan kata `pemisah ini`, tetapi tidak bisa menemukan kata selanjutnya yang masuk akal.
