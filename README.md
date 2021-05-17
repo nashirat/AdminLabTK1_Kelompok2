@@ -7,7 +7,7 @@
 #### SOAL 1 ####
 
 [Code Lengkap](https://github.com/nashirat/AdminLabTK1_Kelompok2/blob/main/Soal1/soal1.ino)
-[rangkaian](https://github.com/nashirat/AdminLabTK1_Kelompok2/blob/main/Soal1/Rangkaian_Soal1_Kelompok2.PNG)
+![rangkaian](https://github.com/nashirat/AdminLabTK1_Kelompok2/blob/main/Soal1/Rangkaian_Soal1_Kelompok2.PNG)
 
 Penjelasan Algoritma Utama
 
